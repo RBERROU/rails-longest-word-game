@@ -1,0 +1,7 @@
+h1>******** Now your results ********</h1>
+<p><strong>Your word:</strong> <%= @word %></p>
+<p><strong>Time Taken to answer:</strong> <%= @time_taken.round(2) %> seconds</p>
+<p><strong>Your score:</strong> <%= @score %></p>
+<p><strong>Message:</strong> <%= @message %></p>
+
+<%= link_to 'Try again', new_path %>
